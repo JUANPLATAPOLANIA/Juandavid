@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="parcial.css">
+
+</head>
+
+<body>
+
+<nav>
+        <button class="nav-botton" onclick="accion()">menu</button>
+        <a href="#" class="nav-enlace desaparece">INICIO</a>
+        <a href="#" class="nav-enlace desaparece">CONOCENOS</a>
+        <a href="#" class="nav-enlace desaparece">CONTACTO</a>
+        <a href="#" class="nav-enlace desaparece">HISTORIA</a>
+   </nav>
+   <script>
+     function accion(){
+        console.log ("esta funcionando el boton");
+        var ancla = document.getElementsByClassName("nav-enlace");
+        for(var i = 0; 1 < ancla.length; i++){
+            ancla[i].classList.toggle("desaparece");
+            }
+
+    }
+</script>
+    <div class="img-center">
+        <img src="https://dpilaser.com/wp-content/uploads/2017/01/Bienvenido.png" width="20%" height="20%" alt="30%">
+
+    </div>
+    
+    </div>
+    
+    <h1 style="color:rgb(0, 128, 75)"> me llamo juan david plata y soy de la fet</h1> 
+    
+    </nav>
+    <section class="padre">
+        <p class="columna"> me llamo juan david y tengo 17 años  <img src=""   width="200%" alt="500"></p> 
+        <p class="columna"> me llamo juan david y tengo 17 años  <img src=""   width="200%" alt="500"></p> 
+        <p class="columna"> me llamo juan david y tengo 17 años  <img src=""   width="200%" alt="500"></p> 
+        <p class="columna"> me llamo juan david y tengo 17 años  <img src=""   width="200%" alt="500"></p> 
+    </section>
+
+</body>
+
+</html>
